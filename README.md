@@ -89,18 +89,7 @@ def show_histogram(x,y,title=""):
 
 The first step of calculation is the computation of the gradient values,using the following formula:
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
-$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
-\\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
-
-$$ G_x(x,y)=I(x+1,y)-I(x-1,y) $$
-
-$ G_y(x,y)=I(x,y+1)-I(x,y-1) $
-
-$ G(x,y)= \sqrt{G_x(x,y)^2 + G_y(x,y)^2} $
-
-$ Deg(x,y)=tan^{-1}({G_y(x,y) \over G_x(x,y)} ) $
+![](resources/formula1.jpg)
 
 
 ```python
@@ -180,13 +169,7 @@ def calc_cell_gradient(cell_magnitude, cell_angle,orientations,signed_orientatio
 
 ### Compute normalize block.
 
-L2-norm: $ f={v \over { \sqrt{||v||_2^2 + e^2} }}$
-
-L2-hys: L2-norm followed by clipping (limiting the maximum values of v to 0.2) and renormalizing,
-
-L1-norm: $ f={v \over { \sqrt{||v||_1 + e} }}$
-
-L2-sqrt: $ f= \sqrt{v \over {||v||_1 + e} }$
+![](resources/formula2.jpg)
 
 
 ```python
