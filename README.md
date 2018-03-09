@@ -91,6 +91,9 @@ The first step of calculation is the computation of the gradient values,using th
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
+$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+\\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
+
 $$ G_x(x,y)=I(x+1,y)-I(x-1,y) $$
 
 $ G_y(x,y)=I(x,y+1)-I(x,y-1) $
