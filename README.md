@@ -335,16 +335,16 @@ def hog_detector(image,pixels_per_cell=(8, 8),cells_per_block=(2, 2),orientation
 
 
 ```python
-imge = cv2.imread('test.jpg')
-print("imge size is ",end="")
-print(imge.shape)
+image = cv2.imread('test.jpg')
+print("image size is ",end="")
+print(image.shape)
 
-res = hog_detector(imge,visualise=True)
+res = hog_detector(image,visualise=True)
 print("hog feature size is ",end="")
 print(len(res))
 ```
 
-    imge size is (63, 106, 3)
+    image size is (63, 106, 3)
 
 
 
