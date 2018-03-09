@@ -360,15 +360,15 @@ print(len(res))
 
 
 
-![png](output_15_1.png)
+![png](resources/output_15_1.png)
 
 
 
-![png](output_15_2.png)
+![png](resources/output_15_2.png)
 
 
 
-![png](output_15_3.png)
+![png](resources/output_15_3.png)
 
 
     hog feature size is 2592
@@ -444,7 +444,7 @@ show_images([car_image,notcar_image],['Example Car Image','Example Not-car Image
 
 
 
-![png](output_18_1.png)
+![png](resources/output_18_1.png)
 
 
 ### Train and Test Hog Features
